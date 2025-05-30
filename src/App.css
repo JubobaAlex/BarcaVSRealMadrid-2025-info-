@@ -1,19 +1,54 @@
 .header {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     position: relative;
     height: 50px;
     background-color: rgb(58, 58, 58);
 }
+
 .header b {
     color: white;
     font-size: 22px;
 }
+
 body {
     background-image: url('./public/zvezda.jpg');
-    animation: fon linear  ;
+    animation: fon linear;
     background-repeat: repeat-x;
     animation-duration: 30s;
     animation-iteration-count: infinite;
+    position: relative;
+    z-index: 1;
+}
+
+.info {
+    background-color: rgb(58, 58, 58);
+    position: relative;
+    z-index: 2;
+    margin-top: 50px;
+    display: flex; /* Добавлено */
+    justify-content: center; /* Добавлено */
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 100px;
+}
+
+.chet {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.chet b {
+    color: white;
+    font-size: 20px;
+}
+.ico {
+    position: relative;
+    top: 15px
 }
