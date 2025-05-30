@@ -1,5 +1,5 @@
 import './App.css'
-
+import './Animation.css'
 function App() {
 
   return (

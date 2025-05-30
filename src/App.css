@@ -12,7 +12,8 @@
 }
 body {
     background-image: url('./public/zvezda.jpg');
-    animation-name: backgound;
-    animation-duration: infinite;
-    animation-direction: reverse;
+    animation: fon linear  ;
+    background-repeat: repeat-x;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
 }
